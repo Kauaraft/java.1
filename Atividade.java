@@ -7,9 +7,9 @@ public class Atividade {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-				final int qtdeTimes = 5;
+				final int qntdTimes = 5;
 
-			       final int qtdeJogadores = 11;
+			       final int qntdJogadores = 11;
 
 			       
 
@@ -23,13 +23,13 @@ public class Atividade {
 
 			       
 
-			       float medIdade = 0, medAltura = 0;
+			       float medIda = 0, medAlt = 0;
 
-			       int contMediaIdade = 0, contMediaAltura = 0;
+			       int contMediaIda = 0, contMediaAlt = 0;
 
 			       
 
-			       int qtdeMenor18 = 0, qtdeAcima80Kg = 0;
+			       int qntdMenor18 = 0, qntdAcima80Kg = 0;
 
 			       
 
@@ -37,9 +37,9 @@ public class Atividade {
 
 			       
 
-			       for (i = 1; i <= qtdeTimes; i++) {
+			       for (i = 1; i <= qntdTimes; i++) {
 
-			           for (j = 1; j <= qtdeJogadores; j++) {
+			           for (j = 1; j <= qntdJogadores; j++) {
 
 			               System.out.println("idade do jogador: ");
 
@@ -57,47 +57,47 @@ public class Atividade {
 
 			               if (idade < 18) {
 
-			                   qtdeMenor18++;
+			                   qntdMenor18++;
 
 			               }
 
 			               if (peso > 80) {
 
-			                   qtdeAcima80Kg++;
+			                   qntdAcima80Kg++;
 
 			               }
 
 			               
 
-			               medIdade += idade;
+			               medIda += idade;
 
-			               contMediaIdade++;
+			               contMediaIda++;
 
-			               medAltura += altura;
+			               medAlt += altura;
 
-			               contMediaAltura++;
+			               contMediaAlt++;
 
 			           }
 
-			           System.out.printf("A média de idade do time %d é %f\n", i, medIdade/contMediaIdade);
+			           System.out.printf("A média de idade do time %d é %f\n", i, medIda/contMediaIda);
 
-			           System.out.printf("A altura média do time %d é %f\n", i, medAltura/contMediaAltura);
+			           System.out.printf("A altura média do time %d é %f\n", i, medAlt/contMediaAlt);
 
 			           
 
-			           medIdade = 0;
+			           medIda = 0;
 
-			           contMediaIdade = 0;
+			           contMediaIda = 0;
 
-			           medAltura = 0;
+			           medAlt = 0;
 
-			           contMediaAltura = 0;
+			           contMediaAlt = 0;
 
 			}
 
-			System.out.printf("O campeonato apresenta %d jogadores menores que 18 anos\n", qtdeMenor18);
+			System.out.printf("O jogo apresenta %d jogadores menores que 18 anos\n", qntdMenor18);
 
-			System.out.printf("O campeonato apresenta %d jogadores acima de 80 Kg\n", qtdeAcima80Kg);
+			System.out.printf("O jogo apresenta %d jogadores acima de 80 Kg\n", qntdAcima80Kg);
 
 
 
