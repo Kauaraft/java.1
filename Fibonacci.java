@@ -1,31 +1,16 @@
 package trim1;
 
+import java.util.Scanner;
+
 public class Fibonacci {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		package trim1;
-
-
-
-		import java.util.Scanner;
-
-
-
-		public class Aula5 {
-
-
-
-			public static void main(String[] args) {
-
-				// TODO Auto-generated method stub
-
 				int inicial, i, j, x, expoente, num_termos;
 
 				int den = 0, denominador, fat = 0, fim, s;
 
 				
-
 				
 
 				Scanner sc = new Scanner(System.in);
@@ -100,8 +85,5 @@ public class Fibonacci {
 
 
 
-		}
 
 	}
-
-}
